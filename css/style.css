@@ -41,6 +41,10 @@ ul{
     text-decoration: none;
 }
 
+h2{
+    padding-bottom: var(--space_lg);
+}
+
 img{
     display: block;
     max-width: 100%;
@@ -193,4 +197,26 @@ div.partner{
 
 .card_grid{
     flex-basis: calc((100% - var(--space) * 2) / 3);
+}
+
+.square{
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.square_sm{
+    flex-basis: calc(100vw / 6);
+    width: calc(100vw / 6);
+    height: calc(100vw / 6);
+}
+
+.square_lg{
+    flex-basis: calc(100vw / 3);
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+}
+
+.square_left , .square_right{
+    flex-wrap: wrap;
+    flex-basis: calc(100vw / 3);
 }
