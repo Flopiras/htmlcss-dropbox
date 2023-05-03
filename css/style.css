@@ -86,6 +86,10 @@ section{
     min-height: 700px;
 }
 
+.grid img{
+    min-height: 100px;
+}
+
 
 
 /* header */
@@ -180,4 +184,13 @@ div.partner{
     align-self: flex-start;
     transform: translateY(var(--space_xl));
     padding: var(--space);
+}
+
+.grid{
+    flex-wrap: wrap;
+    gap: var(--space);
+}
+
+.card_grid{
+    flex-basis: calc((100% - var(--space) * 2) / 3);
 }
