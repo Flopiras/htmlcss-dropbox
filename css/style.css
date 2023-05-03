@@ -41,6 +41,11 @@ ul{
     text-decoration: none;
 }
 
+img{
+    display: block;
+    max-width: 100%;
+}
+
 .bg_lightblue{
     background-color: var(--lightblue);
 }
@@ -76,6 +81,12 @@ ul{
 .jumbotron_content{
     min-height: 500px;
 }
+
+section{
+    min-height: 700px;
+}
+
+
 
 /* header */
 header{
@@ -158,4 +169,15 @@ section{
     position: absolute;
     top: var(--space);
     right: var(--space_lg);
+}
+
+
+img.partner{
+    height: 500px;
+}
+
+div.partner{
+    align-self: flex-start;
+    transform: translateY(var(--space_xl));
+    padding: var(--space);
 }
