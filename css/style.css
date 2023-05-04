@@ -220,3 +220,17 @@ div.partner{
     flex-wrap: wrap;
     flex-basis: calc(100vw / 3);
 }
+
+.free_trial{
+    text-align: center;
+}
+
+.free_trial .button{
+    background-color: white;
+    color: black;
+}
+
+.free_trial h2{
+    display: inline-block;
+    color: var(--burgundy);
+}
