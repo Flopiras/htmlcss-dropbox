@@ -333,11 +333,21 @@ div.partner{
     flex-basis: calc(100vw / 3 - 21px);
     width: calc(100vw / 3);
     height: calc(100vw / 3);
+    color: white;
 }
 
 .square_left , .square_right{
     flex-wrap: wrap;
     flex-basis: calc(100vw / 3);
+}
+
+#s1{
+    background-color: var(--burgundy);
+}
+
+.customer{
+    display: block;
+    color: white;
 }
 
 .free_trial{
