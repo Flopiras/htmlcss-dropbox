@@ -234,3 +234,9 @@ div.partner{
     display: inline-block;
     color: var(--burgundy);
 }
+
+.bottom{
+    border-bottom: 1px solid #d0d0d3;
+    padding-top: var(--space_lg);
+    padding-bottom: var(--space_lg);
+}
