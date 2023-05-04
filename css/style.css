@@ -28,9 +28,23 @@ ul{
     list-style: none;
 }
 
+li a{
+    text-decoration: none;
+}
+
 .margin{
     margin-top: var(--space);
     margin-bottom: var(--space);
+}
+
+.padding_xl{
+    padding-top: var(--space_xl);
+    padding-bottom: var(--space_xl);
+}
+
+.padding_lg{
+    padding-top: var(--space_lg);
+    padding-bottom: var(--space_lg);
 }
 
 .button{
@@ -121,7 +135,7 @@ header nav{
     flex-direction: row-reverse;
 }
 
-ul li{
+nav li{
     margin-left: var(--space);
     margin-right: var(--space);
 }
@@ -240,3 +254,25 @@ div.partner{
     padding-top: var(--space_lg);
     padding-bottom: var(--space_lg);
 }
+
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+    
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.top_footer{
+    justify-content: space-between;
+}
+
+.bottom_footer{
+    font-size: 20px;
+    color: #999;
+}
+
