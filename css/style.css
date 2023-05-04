@@ -87,7 +87,7 @@ img{
 
 }
 
-/* temporary */
+/* temporary
 .border{
     border: 2px dashed black;
 }
@@ -106,7 +106,7 @@ section{
 
 .grid img{
     min-height: 100px;
-}
+} */
 
 
 
@@ -225,7 +225,7 @@ div.partner{
 }
 
 .square_lg{
-    flex-basis: calc(100vw / 3);
+    flex-basis: calc(100vw / 3 - 21px);
     width: calc(100vw / 3);
     height: calc(100vw / 3);
 }
