@@ -10,7 +10,7 @@
 }
 
 .big_container{
-    width: 70%;
+    width: 63%;
     margin: 0 auto;
 }
 
@@ -21,7 +21,6 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    padding-top: calc(var(--space_lg) + var(--space_lg));
     line-height: 1.5rem;
     font-size: 1.1rem;
 }
@@ -37,6 +36,16 @@ li a{
 .margin{
     margin-top: var(--space);
     margin-bottom: var(--space);
+}
+
+.margin_lg{
+    margin-top: var(--space_lg);
+    margin-bottom: var(--space_lg);
+}
+
+.padding{
+    padding-top: var(--space);
+    padding-bottom: var(--space);
 }
 
 .padding_xl{
@@ -144,11 +153,26 @@ nav li{
 
 /* main */
 .jumbotron_content{
-    margin-top: calc(var(--space_xl) * 2);
+    margin-top: var(--space_xl);
+}
+
+.jumbo_left{
+    flex-basis: calc(100% / 3);
+}
+
+.jumbo.right{
+    position: relative;
 }
 
 .jumbotron_content img{
-    width: 80%;
+    width: 50%;
+    position: absolute;
+    right: var(--space_xl);
+}
+
+.fa-arrow-down{
+    font-size: var(--space_lg);
+    padding-top: var(--space_lg);
 }
 
 h1{
