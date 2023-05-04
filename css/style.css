@@ -312,10 +312,9 @@ div.partner{
     padding-right: var(--space_lg);
 }
 
-.customer{
+.our_customer{
     width: 60%;
     line-height: 3rem;
-    padding-bottom: var(--space_xl);
 }
 
 .square{
@@ -327,6 +326,9 @@ div.partner{
     flex-basis: calc(100vw / 6);
     width: calc(100vw / 6);
     height: calc(100vw / 6);
+    justify-content: center;
+    align-items: center;
+    fill: white;
 }
 
 .square_lg{
@@ -334,6 +336,7 @@ div.partner{
     width: calc(100vw / 3);
     height: calc(100vw / 3);
     color: white;
+    background-color: var(--grey);
 }
 
 .square_left , .square_right{
@@ -342,7 +345,35 @@ div.partner{
 }
 
 #s1{
+    background-color: var(--lightgreen);
+}
+
+#s2{
     background-color: var(--burgundy);
+}
+
+#s3{
+    background-color: var(--sky);
+}
+
+#s4{
+    background-color: var(--lightred);
+}
+
+#s5{
+    background-color: var(--darkred);
+}
+
+#s6{
+    background-color: var(--lightblue);
+}
+
+#s7{
+    background-color: var(--blue);
+}
+
+#s8{
+    background-color: var(--yellow);
 }
 
 .customer{
