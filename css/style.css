@@ -310,6 +310,7 @@ div.partner{
 
 .card_grid{
     flex-basis: calc((100% - var(--space) * 2) / 3);
+    padding-right: var(--space_lg);
 }
 
 .square{
