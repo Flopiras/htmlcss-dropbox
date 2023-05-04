@@ -22,6 +22,8 @@
 body{
     font-family: 'Open Sans', sans-serif;
     padding-top: calc(var(--space_lg) + var(--space_lg));
+    line-height: 1.5rem;
+    font-size: 1.1rem;
 }
 
 ul{
@@ -143,6 +145,16 @@ nav li{
 /* main */
 .jumbotron_content{
     margin-top: calc(var(--space_xl) * 2);
+}
+
+.jumbotron_content img{
+    width: 80%;
+}
+
+h1{
+    font-size: var(--space_xl);
+    font-weight: 800;
+    line-height: 8rem;
 }
 
 section{
@@ -276,3 +288,7 @@ footer a{
     color: #999;
 }
 
+.border_top{
+    border-top: 2px solid white;
+    width: 120px;
+}
