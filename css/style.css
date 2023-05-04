@@ -79,6 +79,7 @@ li a{
 
 h2{
     font-size: var(--space_lg);
+    padding-bottom: var(--space);
 }
 
 h3{
@@ -301,8 +302,6 @@ div.partner{
     margin-left: 2rem;
 }
 
-
-
 .grid{
     flex-wrap: wrap;
     gap: var(--space);
@@ -311,6 +310,12 @@ div.partner{
 .card_grid{
     flex-basis: calc((100% - var(--space) * 2) / 3);
     padding-right: var(--space_lg);
+}
+
+.customer{
+    width: 60%;
+    line-height: 3rem;
+    padding-bottom: var(--space_xl);
 }
 
 .square{
