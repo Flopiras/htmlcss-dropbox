@@ -71,6 +71,12 @@ li a{
     text-decoration: none;
 }
 
+.button.light{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
 h2{
     font-size: var(--space_lg);
 }
@@ -292,7 +298,10 @@ div.partner{
     align-self: flex-start;
     transform: translateY(var(--space_xl));
     padding: var(--space);
+    margin-left: 2rem;
 }
+
+
 
 .grid{
     flex-wrap: wrap;
