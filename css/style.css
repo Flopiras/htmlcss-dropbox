@@ -176,6 +176,10 @@ nav a{
     display: inline-block;
 }
 
+nav li{
+    padding: 10px;
+}
+
 .bottom_effect{
     display: none;
 }
