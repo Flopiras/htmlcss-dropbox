@@ -403,10 +403,27 @@ div.partner{
     line-height: var(--space_lg);
 }
 
+.faq_container{
+    justify-content: space-between;
+}
+
+
 .bottom{
     border-bottom: 1px solid var(--grey);
     padding-top: var(--space_lg);
     padding-bottom: var(--space_lg);
+}
+
+.hover{
+    display: none;
+}
+
+.faq:hover .hover{
+    display: inline;
+}
+
+.faq:hover .faq_icon::before{
+    content: "\f077";
 }
 
 /* footer */
