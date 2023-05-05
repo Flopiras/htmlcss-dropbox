@@ -436,6 +436,9 @@ footer{
 footer a{
     text-decoration: none;
     color: white;
+    padding-top: var(--space);
+    display: inline-block;
+    font-size: var(--space);
 }
 
 .top_footer{
@@ -443,11 +446,20 @@ footer a{
 }
 
 .bottom_footer{
-    font-size: 20px;
+    font-size: var(--space);
     color: #999;
+    align-items: baseline;
+}
+
+.bottom_footer p{
+    padding: 0 var(--space_sm);
+}
+
+.fa-sort-up{
+    align-self: flex-end;
 }
 
 .border_top{
-    border-top: 2px solid white;
+    border-top: 1px solid white;
     width: 120px;
 }
