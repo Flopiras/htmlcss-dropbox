@@ -272,13 +272,16 @@ h1{
 }
 
 .main_card{
-    padding: var(--space);
+    padding: var(--space_md);
     border-top: 1px solid var(--grey);
 }
 
-.focus_pack li{
-    list-style-type: "\2714";
-    list-style-position: inside;
+.bl{
+    align-items: baseline;
+}
+
+.card i{
+    padding-right: var(--space_sm);
 }
 
 .row_small .main_card{
