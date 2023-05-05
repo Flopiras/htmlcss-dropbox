@@ -418,11 +418,11 @@ div.partner{
     display: none;
 }
 
-.faq:hover .hover{
+.faq_container:hover .hover{
     display: inline;
 }
 
-.faq:hover .faq_icon::before{
+.faq_container:hover .faq_icon::before{
     content: "\f077";
 }
 
