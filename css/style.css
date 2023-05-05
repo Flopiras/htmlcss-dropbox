@@ -320,6 +320,7 @@ div.partner{
 .square{
     justify-content: flex-start;
     flex-wrap: wrap;
+    padding-bottom: 0;
 }
 
 .square_sm{
@@ -387,7 +388,8 @@ div.partner{
 }
 
 .free_trial{
-    text-align: center;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 .free_trial .button{
@@ -396,8 +398,9 @@ div.partner{
 }
 
 .free_trial h2{
-    display: inline-block;
+    flex-basis: 60%;
     color: var(--burgundy);
+    line-height: var(--space_lg);
 }
 
 .bottom{
