@@ -155,6 +155,7 @@ header{
 
 header nav{
     justify-content: space-between;
+    align-items: center;
     transform: translate(0, 8%);
 }
 
@@ -168,9 +169,22 @@ header nav{
     flex-direction: row-reverse;
 }
 
-nav li{
+nav a{
     margin-left: var(--space);
     margin-right: var(--space);
+    color: black;
+    display: inline-block;
+}
+
+.bottom_effect{
+    display: none;
+}
+
+.nav_link:hover .bottom_effect{
+    display: block;
+    position: relative;
+    bottom: -31px;
+    border-bottom: 2px solid black;
 }
 
 /* main */
